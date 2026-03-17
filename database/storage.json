@@ -1,0 +1,17 @@
+{
+  "nvme": {
+    "supported": [
+      "Samsung",
+      "WD",
+      "Kioxia",
+      "Crucial"
+    ]
+  },
+  "sata": {
+    "supported": [
+      "Samsung",
+      "Kingston",
+      "Sandisk"
+    ]
+  }
+}
