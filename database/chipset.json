@@ -1,0 +1,17 @@
+{
+  "intel": {
+    "supported": [
+      "Z370",
+      "Z390",
+      "Z490",
+      "Z590",
+      "Z690",
+      "B660"
+    ],
+    "laptop": [
+      "TigerLake",
+      "AlderLake",
+      "RaptorLake"
+    ]
+  }
+}
