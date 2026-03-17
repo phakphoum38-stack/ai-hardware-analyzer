@@ -1,0 +1,21 @@
+{
+  "cpu_gpu_rules": {
+    "RaptorLake": {
+      "required_spoof": "AlderLake",
+      "status": "partial_support"
+    },
+
+    "AlderLake": {
+      "status": "supported"
+    }
+  },
+
+  "wifi_rules": {
+    "Realtek": "not_supported",
+    "Intel": "supported"
+  },
+
+  "nvme_rules": {
+    "Kioxia": "supported_with_nvmefix"
+  }
+}
