@@ -1,0 +1,21 @@
+{
+  "wifi": {
+    "supported": [
+      "Intel AX200",
+      "Intel AX210",
+      "Intel 8265"
+    ],
+    "unsupported": [
+      "Realtek RTL8821",
+      "Realtek RTL8723"
+    ]
+  },
+
+  "ethernet": {
+    "supported": [
+      "Realtek RTL8111",
+      "Intel I219V",
+      "Intel I225V"
+    ]
+  }
+}
