@@ -1,0 +1,35 @@
+{
+  "intel": {
+    "supported": [
+      "UHD 620",
+      "UHD 630",
+      "Iris Xe",
+      "UHD AlderLake"
+    ],
+    "partial": [
+      "UHD RaptorLake"
+    ]
+  },
+
+  "amd": {
+    "supported": [
+      "RX 560",
+      "RX 570",
+      "RX 580",
+      "RX 6600",
+      "RX 6800"
+    ]
+  },
+
+  "nvidia": {
+    "legacy": [
+      "GTX 760",
+      "GTX 770"
+    ],
+    "unsupported": [
+      "RTX 2060",
+      "RTX 3060",
+      "RTX 4060"
+    ]
+  }
+}
