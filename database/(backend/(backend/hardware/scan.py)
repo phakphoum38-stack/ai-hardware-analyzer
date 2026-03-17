@@ -1,0 +1,21 @@
+import json
+import os
+
+DB_PATH = os.path.join(os.path.dirname(__file__), "../../database")
+
+def load_database(name):
+    file_path = os.path.join(DB_PATH, name)
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_all():
+    return {
+        "cpu": load_database("cpu.json"),
+        "gpu": load_database("gpu.json"),
+        "storage": load_database("storage.json"),
+        "network": load_database("network.json"),
+        "chipset": load_database("chipset.json"),
+        "compatibility": load_database("compatibility.json")
+    }
