@@ -1,1 +1,5 @@
-
+fastapi
+uvicorn
+psutil
+requests
+jinja2
